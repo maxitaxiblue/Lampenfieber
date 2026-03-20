@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Outfit', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: #F0C4B0;
+}
+
+input:focus, textarea:focus {
+  border-color: #D4542B !important;
+  box-shadow: 0 0 0 3px #FDF0EA;
+  outline: none;
+}
+
+a:hover {
+  color: #D4542B !important;
+}
+
+button:hover {
+  opacity: 0.92;
+}
+
+@keyframes ticker {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
